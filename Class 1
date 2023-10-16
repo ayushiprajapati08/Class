@@ -1,0 +1,93 @@
+#include <iostream>
+using namespace std;
+
+class Cube
+{
+    public:
+    double height = 2.0;
+    double width = 3.0;
+    double length = 5.0;
+};
+
+main()
+{
+    Cube cube1;
+    double vol = cube1.height * cube1.width * cube1.length;
+    cout << "Volume : " << vol << endl;
+
+}
+
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+class Cube
+{
+    public:
+    double height = 2.0;
+    double width = 3.0;
+    double length = 5.0;
+
+    double volume()
+    {
+        double v ;
+        v = height * width * length;
+        return v;
+    }
+};
+
+main()
+{
+    Cube cube1;
+    // double vol = cube1.height * cube1.width * cube1.length;
+    double vol = cube1.volume();
+    cout << "Volume : " << vol << endl;
+
+}
+
+
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+class Cube
+{
+    public:
+    double height = 2.0;
+    double width = 3.0;
+    double length = 5.0;
+
+    double volume()
+    {
+        double v ;
+        v = height * width * length;
+        return v;
+    }
+
+    void disp_vol(double vol)
+    {
+        cout << "Volume : " << vol << endl;
+
+    }
+};
+
+main()
+{
+    Cube cube1;
+    // double vol = cube1.height * cube1.width * cube1.length;
+    double vol = cube1.volume();
+   cube1.disp_vol(vol);
+    
+}
