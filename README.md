@@ -1,5 +1,5 @@
 # Class
-##code 1
+##Code 1
 1. Start
 2. Define a class named Cube with public data members: double height, width, and length.
 3. Inside the class:
@@ -18,3 +18,24 @@ The program ends after displaying the volume.
 
 
 ##Code 2
+1. Start
+2. Define a class named Cube with public data members: double height, width, and length.
+3. Inside the class:
+   a. Define a member function volume() without any parameters:
+      i. Declare a local variable v of type double.
+      ii. Calculate the volume using the formula: v = height * width * length.
+      iii. Return v.
+4. Define the main function:
+   a. Declare an object of the Cube class: Cube cube1.
+   b. Call the volume() member function of cube1 and store the returned value in a variable vol.
+   c. Output: "Volume: vol" followed by a newline.
+5. End
+The program starts and defines a class named Cube with public data members for height, width, and length.
+Inside the class, a member function volume() is defined, which calculates and returns the volume of the cube using its data members.
+In the main function, an object of the Cube class, cube1, is created.
+The volume() member function of cube1 is called to calculate the volume of the cube.
+The program outputs the calculated volume of the cube.
+The program ends after displaying the volume.
+
+
+##Code 3
